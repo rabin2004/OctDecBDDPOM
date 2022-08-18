@@ -84,4 +84,6 @@ public class SearchFunctionalityTest extends BaseClass{
 	public void related_item_should_be_displayed(String product) {
 		Assert.assertTrue(hp.returnCurrentURL().contains(product));
 	}
+	
+	// changes 123 - rabin
 }
